@@ -94,8 +94,7 @@ int main()
             for (i = 0; i < count; i++) {
   
                 if (strcmp(ar_nm,
-                           lib[i].author)
-                    == 0)
+                           lib[i].author)== 0)
                     printf("%s %s %d %f",
                            lib[i].book_name,
                            lib[i].author,
@@ -106,7 +105,7 @@ int main()
   
         // Print total count
         case 4:
-            printf("\n No of books in "
+            printf("\n No of books in li"
                    "brary : %d",
                    count);
             break;
